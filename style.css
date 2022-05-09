@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;600&display=swap");
+
+.container {
+  height: 500px;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  box-sizing: border-box;
+  font-family: Comfortaa, sans-serif;
+  font-weight: 300;
+  background-color: #62D4C0;
+}
+body {
+  font-family: "Comfortaa", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  color: #000000;
+  background-color: #fffdcd;
+  margin: 0;
+}
+img {
+  max-height: 300px;
+  max-width: 300px;
+  margin: 1;
+}
+.name {
+  font-size: 5em;
+  margin: 1;
+  font-weight: 400;
+  color: #34353a;
+  font-family: "Comfortaa", sans-serif;
+  display: inline-flex;
+  flex-direction: row;
+  margin: 1;
+  position: relative;
+  text-align: center;
+  background: #62D4C0;
+}
+
+h1 {
+  font-size: 100px;
+  font-weight: 600;
+  color: #34353a;
+  font-family: "Comfortaa", sans-serif;
+  text-align: center;
+  margin: 2;
+}
+
+h2 {
+  margin: 5;
+  font-weight: 600;
+  line-height: 40px;
+  font-size: 40px;
+  text-align: center;
+}
+
+h4,
+h5,
+h6 {
+  margin: 3;
+  font-family: "Comfortaa", sans-serif;
+}
+h3 {
+  font-weight: 600;
+  background-color: #62D4C0; 
+  line-height: 45px;
+}
+
+p {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+a {
+  font-size: 1em;
+  font-weight: 400;
+  color: #34353a;
+  font-family: "Comfortaa", sans-serif;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-shadow: 0 0 1px rgb(255 255 255 / 30%);
+}
+.top-menu {
+  float: top;
+  margin: 0.8% auto 0;
+  width: 7%;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0;
+  text-decoration: none;
+  color: #34353a;
+  font-size: 0.9em;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: inline;
+  flex-direction: row;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+
+nav {
+  flex-direction: row;
+  justify-content: space-around;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  text-shadow: 0 0 1px rgb(255 255 255 / 30%);
+  font-size: 1em;
+}
+.gallery {
+  margin: auto;
+  margin-top: 0px;
+  line-height: 45px;
+}
+
+@media (min-width: 800px) {
+  p {
+    font-size: 1em;
+  }
+}
